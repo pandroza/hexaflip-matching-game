@@ -1,0 +1,214 @@
+html {
+   height: 100%;
+  font-size: 10px;
+  margin: 0;
+  }
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    background: #f9f9f9;
+    font-weight: 300;
+    font-size: 15px;
+    color: #333;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+html { height: 100%; }
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    background: #f9f9f9;
+    font-weight: 300;
+    font-size: 15px;
+    color: #333;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.hexaflip-cube {
+   font-family: 'Nanum Pen Script', cursive;
+  pointer-events: none;
+}
+
+
+.hexaflip-cube .hexaflip-side {
+  background-color: slateblue;
+  color: #fff;  
+}
+
+
+:root {
+   --my-color1: white;
+   --my-color2: turquoise;
+}
+
+.header {
+  background-color: white;
+  padding: 20px;
+  color:black;
+  height:100vh;
+  font-family:'Indie Flower', cursive;
+  font-family: 'Nanum Pen Script', cursive;
+  text-align: center;
+}
+h1{
+  font-size:2.5rem;
+  letter-spacing: 10px;
+}
+h2{
+  padding-top:20px;
+  padding-bottom:20px;
+  font-size:2.5rem;
+  letter-spacing: 10px;
+}
+i {
+  color:white;
+   color:var(--my-color2);
+  
+}
+i.fa-atom {
+  color:var(--my-color1);
+  
+}
+
+#iconStart {
+  color:red;
+  font-size:3rem;
+  cursor:pointer;
+}
+/*.hexaflip-top:hover {
+  background-color: rebeccapurple;
+  color:white;
+}*/
+
+#my-cube0 {
+  grid-area: my-box0;
+}
+#my-cube1 {
+  grid-area: my-box1;
+}
+#my-cube2 {
+  grid-area: my-box2;
+}
+#my-cube3 {
+  grid-area: my-box3;
+}
+#my-cube4 {
+  grid-area: my-box4;
+}
+#my-cube5 {
+  grid-area: my-box5;
+}
+#my-cube6 {
+  grid-area: my-box6;
+}
+#my-cube7 {
+  grid-area: my-box7;
+}
+#my-cube8 {
+  grid-area: my-box8;
+}
+#my-cube9 {
+  grid-area: my-box9;
+}
+#my-cube10 {
+  grid-area: my-box10;
+}
+#my-cube11 {
+  grid-area: my-box11;
+}
+#my-cube12 {
+  grid-area: my-box12;
+}
+#my-cube13 {
+  grid-area: my-box13;
+}
+#my-cube14 {
+  grid-area: my-box14;
+}
+#my-cube15 {
+  grid-area: my-box15;
+}
+#my-cube16 {
+  grid-area: my-box16;
+}
+#my-cube17 {
+  grid-area: my-box17;
+}
+#my-cube18 {
+  grid-area: my-box18;
+}
+#my-cube19 {
+  grid-area: my-box19;
+}
+
+#hexContainer {
+   width: 100%;
+        margin-top:10px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 65px 65px 65px 65px;
+        grid-gap: 5px;
+        grid-template-areas:
+        "my-box0 my-box1 my-box2 my-box3"
+        "my-box4 my-box5 my-box6 my-box7"
+        "my-box8 my-box9 my-box10 my-box11"
+        "my-box12 my-box13 my-box14 my-box15"
+        "my-box16 my-box17 my-box18 my-box19";
+    }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  h1{
+  font-size:3rem;
+  letter-spacing: 10px;
+}
+h2{
+  padding-top:40px;
+  font-size:3rem;
+  letter-spacing: 10px;
+}
+#iconStart {
+  font-size:2.5rem;
+  
+}
+  #hexContainer {
+   width: 100%;
+        margin-top:40px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 65px 65px 65px 65px 65px;
+        grid-gap: 5px;
+        grid-template-areas:
+        "my-box0 my-box1 my-box2 my-box3 my-box4"
+        "my-box5 my-box6 my-box7 my-box8 my-box9"
+        "my-box10 my-box11 my-box12 my-box13 my-box14"
+        "my-box15 my-box16 my-box17 my-box18 my-box19";
+        
+    }
+}
