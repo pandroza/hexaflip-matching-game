@@ -2,7 +2,7 @@
 
 /*The Hexaflip JS code has been modified so it accepts Font Awesome icons. If text values given to hexes have the letters "fas fa" or "far fa" in it, it is treated as a Font Awesome icon and becomes a class inside a <i> element inside hex. 
 */
-/*In HexaFlip CSS new font family added and "pointer-events: none" added to "hexaflip-cube" class. */
+/*In CSS "pointer-events: none" added to "hexaflip-cube" class. This disables drag ability from Hexaflip code*/
 
 /*Find Hexaflip at: https://oxism.com/hexaflip/ */
 
