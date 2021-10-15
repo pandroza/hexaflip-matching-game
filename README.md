@@ -11,4 +11,4 @@ Hexaflip code modified in two ways.
 
 1: Hexaflip.js has small bit of extra code added so it accepts FA icons inside <a> elements. 
   
-2: Click and dragging on hexes is disabled. Otherwise you'd be able to see the hiddden icons and it wouldn't be much of a game. Click and drag disabled by adding pointer-events: none to .hexaflip-cube class in CSS
+2: Click and dragging on hexes is disabled. Otherwise you'd be able to see the hiddden icons and it wouldn't be much of a game. Click and drag disabled by adding "pointer-events: none" to ".hexaflip-cube" class in CSS
