@@ -1,4 +1,4 @@
-# hexaflip-matching-game
+# Hexaflip-matching-game
 Built using HTML, CSS, JAVASCRIPT, HEXAFLIP plugin and FONT AWESOME Icons
 
 A simple match the pairs, based around Hexaflip.
