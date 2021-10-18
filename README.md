@@ -1,6 +1,6 @@
-![Hexaflip matching game](pairs-pic.png)
+![Hexaflip matching game](pairs-pic2.png)
 
-### Built using HTML, CSS, JAVASCRIPT, [HEXAFLIP](https://github.com/dmotz/hexaflip) plugin and [FONT AWESOME](https://fontawesome.com/) Icons
+Built using HTML, CSS, JAVASCRIPT, [HEXAFLIP](https://github.com/dmotz/hexaflip) plugin and [FONT AWESOME](https://fontawesome.com/) Icons
 
 A simple match the pairs game, based around Hexaflip.
 
