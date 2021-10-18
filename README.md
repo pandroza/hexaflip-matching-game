@@ -6,7 +6,7 @@ A simple match the pairs game, based around Hexaflip.
 
 The pairs are Icons from Font Awesome.
 
-Instead of flipping flat cards, you flip Hexaflip Hexes.
+Instead of flipping flat cards, you spin Hexaflip Hexes.
 
 Hexaflip code modified in two ways.
 
